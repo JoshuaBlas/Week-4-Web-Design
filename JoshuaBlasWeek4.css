@@ -1,0 +1,56 @@
+body {
+    background-color: #041228;
+  }
+  
+  h1 {
+    color: #f6851f;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', bold, sans-serif;
+    font-size: 40px;
+
+    
+  }
+  .gallery {
+    display: grid;
+    color: #f6851f;
+    border-style: solid;
+    border-width: light
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+  p {
+    color: #d4deec;
+    border-style: solid;
+    border-width: light
+
+
+    color: #d4deec;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  h3 {
+    color: #d4deec;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 15px;
+  } 
+  h2 {
+    color: #f6851f;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
